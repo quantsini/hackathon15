@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6262"
-	"mapversion" "173"
+	"mapversion" "174"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "173"
+	"mapversion" "174"
 	"classname" "worldspawn"
 	"chaptertitle" "darwin"
 	"detailmaterial" "detail/detailsprites"
@@ -338,7 +338,7 @@ world
 		side
 		{
 			"id" "102"
-			"plane" "(768 -2016 256) (768 -1920 256) (816 -1920 256)"
+			"plane" "(768 -2000 256) (768 -1936 256) (816 -1936 256)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
@@ -349,7 +349,7 @@ world
 		side
 		{
 			"id" "101"
-			"plane" "(768 -1920 0) (768 -2016 0) (816 -2016 0)"
+			"plane" "(768 -1936 0) (768 -2000 0) (816 -2000 0)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
@@ -360,7 +360,7 @@ world
 		side
 		{
 			"id" "100"
-			"plane" "(768 -2016 0) (768 -1920 0) (768 -1920 256)"
+			"plane" "(768 -2000 0) (768 -1936 0) (768 -1936 256)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[0 1 0 128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -371,7 +371,7 @@ world
 		side
 		{
 			"id" "99"
-			"plane" "(816 -1920 0) (816 -2016 0) (816 -2016 256)"
+			"plane" "(816 -1936 0) (816 -2000 0) (816 -2000 256)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[0 1 0 128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -382,7 +382,7 @@ world
 		side
 		{
 			"id" "98"
-			"plane" "(768 -1920 0) (816 -1920 0) (816 -1920 256)"
+			"plane" "(768 -1936 0) (816 -1936 0) (816 -1936 256)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -393,7 +393,7 @@ world
 		side
 		{
 			"id" "97"
-			"plane" "(816 -2016 0) (768 -2016 0) (768 -2016 256)"
+			"plane" "(816 -2000 0) (768 -2000 0) (768 -2000 256)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2162,7 +2162,7 @@ world
 		side
 		{
 			"id" "259"
-			"plane" "(768 -1920 256) (768 -1696 256) (784 -1696 256)"
+			"plane" "(768 -1936 256) (768 -1696 256) (784 -1696 256)"
 			"material" "CONCRETE/SEWER_CONCRETEWALL01B_CHEAP"
 			"uaxis" "[0 1 0 128] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
@@ -2173,7 +2173,7 @@ world
 		side
 		{
 			"id" "260"
-			"plane" "(768 -1696 0) (768 -1920 0) (784 -1920 0)"
+			"plane" "(768 -1696 0) (768 -1936 0) (784 -1936 0)"
 			"material" "CONCRETE/SEWER_CONCRETEWALL01B_CHEAP"
 			"uaxis" "[0 1 0 128] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
@@ -2184,7 +2184,7 @@ world
 		side
 		{
 			"id" "261"
-			"plane" "(768 -1920 0) (768 -1696 0) (768 -1696 256)"
+			"plane" "(768 -1936 0) (768 -1696 0) (768 -1696 256)"
 			"material" "CONCRETE/SEWER_CONCRETEWALL01B_CHEAP"
 			"uaxis" "[0 0 1 0] 0.25"
 			"vaxis" "[0 1 0 128] 0.25"
@@ -2195,7 +2195,7 @@ world
 		side
 		{
 			"id" "262"
-			"plane" "(784 -1696 0) (784 -1920 0) (784 -1920 256)"
+			"plane" "(784 -1696 0) (784 -1936 0) (784 -1936 256)"
 			"material" "CONCRETE/SEWER_CONCRETEWALL01B_CHEAP"
 			"uaxis" "[0 0 1 0] 0.25"
 			"vaxis" "[0 1 0 128] 0.25"
@@ -2217,7 +2217,7 @@ world
 		side
 		{
 			"id" "264"
-			"plane" "(784 -1920 0) (768 -1920 0) (768 -1920 256)"
+			"plane" "(784 -1936 0) (768 -1936 0) (768 -1936 256)"
 			"material" "CONCRETE/SEWER_CONCRETEWALL01B_CHEAP"
 			"uaxis" "[0 0 1 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
@@ -8410,7 +8410,7 @@ world
 		side
 		{
 			"id" "1500"
-			"plane" "(768 -2240 256) (768 -2016 256) (784 -2016 256)"
+			"plane" "(768 -2240 256) (768 -2000 256) (784 -2000 256)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
@@ -8421,7 +8421,7 @@ world
 		side
 		{
 			"id" "1499"
-			"plane" "(768 -2016 0) (768 -2240 0) (784 -2240 0)"
+			"plane" "(768 -2000 0) (768 -2240 0) (784 -2240 0)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
@@ -8432,7 +8432,7 @@ world
 		side
 		{
 			"id" "1498"
-			"plane" "(768 -2240 0) (768 -2016 0) (768 -2016 256)"
+			"plane" "(768 -2240 0) (768 -2000 0) (768 -2000 256)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[0 1 0 128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -8443,7 +8443,7 @@ world
 		side
 		{
 			"id" "1497"
-			"plane" "(784 -2016 0) (784 -2240 0) (784 -2240 256)"
+			"plane" "(784 -2000 0) (784 -2240 0) (784 -2240 256)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[0 1 0 128] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -8454,7 +8454,7 @@ world
 		side
 		{
 			"id" "1496"
-			"plane" "(768 -2016 0) (784 -2016 0) (784 -2016 256)"
+			"plane" "(768 -2000 0) (784 -2000 0) (784 -2000 256)"
 			"material" "PLASTER/URBAN_PLASTERWALL_00A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
