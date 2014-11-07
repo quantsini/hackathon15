@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6262"
-	"mapversion" "389"
+	"mapversion" "390"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "365"
+	"mapversion" "390"
 	"classname" "worldspawn"
 	"chaptertitle" "darwin"
 	"detailmaterial" "detail/detailsprites"
@@ -38238,25 +38238,13 @@ entity
 }
 entity
 {
-	"id" "391"
-	"classname" "info_survivor_position"
-	"angles" "0 180 0"
-	"Order" "1"
-	"origin" "720 -800 1"
-	editor
-	{
-		"color" "255 100 100"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -4768]"
-	}
-}
-entity
-{
 	"id" "393"
 	"classname" "info_survivor_position"
 	"angles" "0 180 0"
+	"GameMode" "survival"
 	"Order" "1"
+	"SurvivorName" "nick"
+	"targetname" "survival_positions"
 	"origin" "641.84 -808 1"
 	editor
 	{
@@ -38271,7 +38259,10 @@ entity
 	"id" "395"
 	"classname" "info_survivor_position"
 	"angles" "0 180 0"
+	"GameMode" "survival"
 	"Order" "1"
+	"SurvivorName" "rochelle"
+	"targetname" "survival_positions"
 	"origin" "656 -880 1"
 	editor
 	{
@@ -38286,7 +38277,9 @@ entity
 	"id" "397"
 	"classname" "info_survivor_position"
 	"angles" "0 180 0"
+	"GameMode" "survival"
 	"Order" "1"
+	"SurvivorName" "ellis"
 	"origin" "584 -856 0.999992"
 	editor
 	{
@@ -39204,7 +39197,10 @@ entity
 	"id" "10517"
 	"classname" "info_survivor_position"
 	"angles" "0 0 0"
+	"GameMode" "survival"
 	"Order" "1"
+	"SurvivorName" "coach"
+	"targetname" "survival_positions"
 	"origin" "832.51 -888.62 0.999992"
 	editor
 	{
@@ -45189,6 +45185,256 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "58649"
+	"classname" "info_director"
+	"targetname" "director"
+	"origin" "598.851 -813.62 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "58658"
+	"classname" "info_game_event_proxy"
+	"range" "100"
+	"spawnflags" "1"
+	"targetname" "survivor_explainer_proxy"
+	"origin" "568 -872 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "58691"
+	"classname" "trigger_finale"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"FirstUseDelay" "0"
+	"IsSacrificeFinale" "0"
+	"model" "models/props/terror/hamradio.mdl"
+	"skin" "0"
+	"StartDisabled" "0"
+	"targetname" "survival_radio"
+	"type" "0"
+	"UseDelay" "0"
+	"VersusTravelCompletion" "0.2"
+	connections
+	{
+		"UseStart" "survivor_explainer_proxyKill0-1"
+	}
+	"origin" "600 -928 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "58732"
+	"classname" "func_brush"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"InputFilter" "0"
+	"invert_exclusion" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"origin" "596 -920 41.5"
+	"parentname" "survival_radio"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "3"
+	"solidbsp" "0"
+	"Solidity" "1"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "survival_glow"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "58730"
+		side
+		{
+			"id" "5724"
+			"plane" "(584 -904 48) (608 -904 48) (608 -936 48)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5723"
+			"plane" "(584 -936 35) (608 -936 35) (608 -904 35)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5722"
+			"plane" "(584 -904 48) (584 -936 48) (584 -936 35)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 16.5762] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5721"
+			"plane" "(608 -904 35) (608 -936 35) (608 -936 48)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 16.5762] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5720"
+			"plane" "(608 -904 48) (584 -904 48) (584 -904 35)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 16.5762] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5719"
+			"plane" "(608 -936 35) (584 -936 35) (584 -936 48)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 16.5762] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "58773"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "survival_stuff_spawner"
+	"Template01" "survival_glow"
+	"Template02" "survival_radio"
+	"origin" "512.243 -871.952 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "58788"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "spawn_survival_stuff_postIO"
+	connections
+	{
+		"OnTrigger" "survival_stuff_spawnerForceSpawn0-1"
+	}
+	"origin" "502.295 -823.514 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "58801"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "kill_survival_stuff"
+	connections
+	{
+		"OnTrigger" "survival_positionsKill0-1"
+		"OnTrigger" "survivor_explainer_proxyKill0-1"
+	}
+	"origin" "533.148 -816.757 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "58820"
+	"classname" "info_gamemode"
+	"angles" "0 0 0"
+	"targetname" "survival_gamemode"
+	connections
+	{
+		"OnCoop" "kill_survival_stuffTrigger0-1"
+		"OnScavenge" "kill_survival_stuffTrigger0-1"
+		"OnVersus" "kill_survival_stuffTrigger0-1"
+		"OnSurvival" "spawn_survival_stuff_postIOTrigger0-1"
+	}
+	"origin" "481.285 -876.108 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
 	}
 }
 cameras
